@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8A2243217E06FD00EFA3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2242217E06FD00EFA3AE /* AppDelegate.swift */; };
+		EC8A2245217E06FD00EFA3AE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2244217E06FD00EFA3AE /* FirstViewController.swift */; };
+		EC8A2247217E06FD00EFA3AE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2246217E06FD00EFA3AE /* SecondViewController.swift */; };
+		EC8A224A217E06FD00EFA3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8A2248217E06FD00EFA3AE /* Main.storyboard */; };
+		EC8A224C217E06FD00EFA3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8A224B217E06FD00EFA3AE /* Assets.xcassets */; };
+		EC8A224F217E06FD00EFA3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8A224D217E06FD00EFA3AE /* LaunchScreen.storyboard */; };
+		EC8A225A217E06FD00EFA3AE /* ZenCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2259217E06FD00EFA3AE /* ZenCarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8A2256217E06FD00EFA3AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8A2237217E06FC00EFA3AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8A223E217E06FC00EFA3AE;
+			remoteInfo = ZenCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8A223F217E06FD00EFA3AE /* ZenCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A2242217E06FD00EFA3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC8A2244217E06FD00EFA3AE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EC8A2246217E06FD00EFA3AE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EC8A2249217E06FD00EFA3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8A224B217E06FD00EFA3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8A224E217E06FD00EFA3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC8A2250217E06FD00EFA3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8A2255217E06FD00EFA3AE /* ZenCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A2259217E06FD00EFA3AE /* ZenCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenCarUITests.swift; sourceTree = "<group>"; };
+		EC8A225B217E06FD00EFA3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8A223C217E06FC00EFA3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A2252217E06FD00EFA3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8A2236217E06FC00EFA3AE = {
+			isa = PBXGroup;
+			children = (
+				EC8A2241217E06FD00EFA3AE /* ZenCar */,
+				EC8A2258217E06FD00EFA3AE /* ZenCarUITests */,
+				EC8A2240217E06FD00EFA3AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8A2240217E06FD00EFA3AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A223F217E06FD00EFA3AE /* ZenCar.app */,
+				EC8A2255217E06FD00EFA3AE /* ZenCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8A2241217E06FD00EFA3AE /* ZenCar */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A2242217E06FD00EFA3AE /* AppDelegate.swift */,
+				EC8A2244217E06FD00EFA3AE /* FirstViewController.swift */,
+				EC8A2246217E06FD00EFA3AE /* SecondViewController.swift */,
+				EC8A2248217E06FD00EFA3AE /* Main.storyboard */,
+				EC8A224B217E06FD00EFA3AE /* Assets.xcassets */,
+				EC8A224D217E06FD00EFA3AE /* LaunchScreen.storyboard */,
+				EC8A2250217E06FD00EFA3AE /* Info.plist */,
+			);
+			path = ZenCar;
+			sourceTree = "<group>";
+		};
+		EC8A2258217E06FD00EFA3AE /* ZenCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A2259217E06FD00EFA3AE /* ZenCarUITests.swift */,
+				EC8A225B217E06FD00EFA3AE /* Info.plist */,
+			);
+			path = ZenCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8A223E217E06FC00EFA3AE /* ZenCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A225E217E06FD00EFA3AE /* Build configuration list for PBXNativeTarget "ZenCar" */;
+			buildPhases = (
+				EC8A223B217E06FC00EFA3AE /* Sources */,
+				EC8A223C217E06FC00EFA3AE /* Frameworks */,
+				EC8A223D217E06FC00EFA3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenCar;
+			productName = ZenCar;
+			productReference = EC8A223F217E06FD00EFA3AE /* ZenCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8A2254217E06FD00EFA3AE /* ZenCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A2261217E06FD00EFA3AE /* Build configuration list for PBXNativeTarget "ZenCarUITests" */;
+			buildPhases = (
+				EC8A2251217E06FD00EFA3AE /* Sources */,
+				EC8A2252217E06FD00EFA3AE /* Frameworks */,
+				EC8A2253217E06FD00EFA3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8A2257217E06FD00EFA3AE /* PBXTargetDependency */,
+			);
+			name = ZenCarUITests;
+			productName = ZenCarUITests;
+			productReference = EC8A2255217E06FD00EFA3AE /* ZenCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8A2237217E06FC00EFA3AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "L3P-IEM";
+				TargetAttributes = {
+					EC8A223E217E06FC00EFA3AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC8A2254217E06FD00EFA3AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC8A223E217E06FC00EFA3AE;
+					};
+				};
+			};
+			buildConfigurationList = EC8A223A217E06FC00EFA3AE /* Build configuration list for PBXProject "ZenCar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8A2236217E06FC00EFA3AE;
+			productRefGroup = EC8A2240217E06FD00EFA3AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8A223E217E06FC00EFA3AE /* ZenCar */,
+				EC8A2254217E06FD00EFA3AE /* ZenCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8A223D217E06FC00EFA3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A224F217E06FD00EFA3AE /* LaunchScreen.storyboard in Resources */,
+				EC8A224C217E06FD00EFA3AE /* Assets.xcassets in Resources */,
+				EC8A224A217E06FD00EFA3AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A2253217E06FD00EFA3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8A223B217E06FC00EFA3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A2247217E06FD00EFA3AE /* SecondViewController.swift in Sources */,
+				EC8A2243217E06FD00EFA3AE /* AppDelegate.swift in Sources */,
+				EC8A2245217E06FD00EFA3AE /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A2251217E06FD00EFA3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A225A217E06FD00EFA3AE /* ZenCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8A2257217E06FD00EFA3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8A223E217E06FC00EFA3AE /* ZenCar */;
+			targetProxy = EC8A2256217E06FD00EFA3AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8A2248217E06FD00EFA3AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A2249217E06FD00EFA3AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8A224D217E06FD00EFA3AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A224E217E06FD00EFA3AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8A225C217E06FD00EFA3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8A225D217E06FD00EFA3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8A225F217E06FD00EFA3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = ZenCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.ZenCar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8A2260217E06FD00EFA3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = ZenCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.ZenCar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8A2262217E06FD00EFA3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = ZenCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.ZenCarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenCar;
+			};
+			name = Debug;
+		};
+		EC8A2263217E06FD00EFA3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = ZenCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.ZenCarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8A223A217E06FC00EFA3AE /* Build configuration list for PBXProject "ZenCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A225C217E06FD00EFA3AE /* Debug */,
+				EC8A225D217E06FD00EFA3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8A225E217E06FD00EFA3AE /* Build configuration list for PBXNativeTarget "ZenCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A225F217E06FD00EFA3AE /* Debug */,
+				EC8A2260217E06FD00EFA3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8A2261217E06FD00EFA3AE /* Build configuration list for PBXNativeTarget "ZenCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A2262217E06FD00EFA3AE /* Debug */,
+				EC8A2263217E06FD00EFA3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8A2237217E06FC00EFA3AE /* Project object */;
+}
