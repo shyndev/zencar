@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC69D9FF21820BCA00B1E3ED /* FavorisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69D9FE21820BCA00B1E3ED /* FavorisTableViewController.swift */; };
+		EC69DA0121820EC000B1E3ED /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69DA0021820EC000B1E3ED /* HistoryTableViewController.swift */; };
+		EC69DA03218261F800B1E3ED /* stationnement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69DA02218261F800B1E3ED /* stationnement.swift */; };
 		EC8A2243217E06FD00EFA3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2242217E06FD00EFA3AE /* AppDelegate.swift */; };
-		EC8A2245217E06FD00EFA3AE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2244217E06FD00EFA3AE /* FirstViewController.swift */; };
-		EC8A2247217E06FD00EFA3AE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2246217E06FD00EFA3AE /* SecondViewController.swift */; };
 		EC8A224A217E06FD00EFA3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8A2248217E06FD00EFA3AE /* Main.storyboard */; };
 		EC8A224C217E06FD00EFA3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8A224B217E06FD00EFA3AE /* Assets.xcassets */; };
 		EC8A224F217E06FD00EFA3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8A224D217E06FD00EFA3AE /* LaunchScreen.storyboard */; };
 		EC8A225A217E06FD00EFA3AE /* ZenCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2259217E06FD00EFA3AE /* ZenCarUITests.swift */; };
+		EC8A2265217E116300EFA3AE /* NouveauViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2264217E116300EFA3AE /* NouveauViewController.swift */; };
+		EC8A2268217E119D00EFA3AE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A2266217E119C00EFA3AE /* HistoryViewController.swift */; };
+		ECFB8284217E67AB005F1DB9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECFB8283217E67AB005F1DB9 /* GoogleMaps.bundle */; };
+		ECFB8287217E686B005F1DB9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8286217E686B005F1DB9 /* Accelerate.framework */; };
+		ECFB8289217E6877005F1DB9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8288217E6877005F1DB9 /* CoreData.framework */; };
+		ECFB828B217E6880005F1DB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB828A217E6880005F1DB9 /* CoreGraphics.framework */; };
+		ECFB828D217E688A005F1DB9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB828C217E688A005F1DB9 /* CoreImage.framework */; };
+		ECFB828F217E6897005F1DB9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB828E217E6897005F1DB9 /* CoreLocation.framework */; };
+		ECFB8291217E68A4005F1DB9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8290217E68A4005F1DB9 /* CoreTelephony.framework */; };
+		ECFB8293217E68AE005F1DB9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8292217E68AE005F1DB9 /* CoreText.framework */; };
+		ECFB8295217E68BB005F1DB9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8294217E68BB005F1DB9 /* GLKit.framework */; };
+		ECFB8299217E6918005F1DB9 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8296217E6917005F1DB9 /* GoogleMapsBase.framework */; };
+		ECFB829A217E6918005F1DB9 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8297217E6918005F1DB9 /* GoogleMaps.framework */; };
+		ECFB829B217E6918005F1DB9 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB8298217E6918005F1DB9 /* GoogleMapsCore.framework */; };
+		ECFB829D217E6948005F1DB9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB829C217E6948005F1DB9 /* ImageIO.framework */; };
+		ECFB829F217E6959005F1DB9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB829E217E6959005F1DB9 /* libc++.tbd */; };
+		ECFB82A1217E6963005F1DB9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB82A0217E6962005F1DB9 /* OpenGLES.framework */; };
+		ECFB82A3217E696C005F1DB9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB82A2217E696C005F1DB9 /* QuartzCore.framework */; };
+		ECFB82A5217E6974005F1DB9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB82A4217E6974005F1DB9 /* SystemConfiguration.framework */; };
+		ECFB82A7217E697B005F1DB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFB82A6217E697B005F1DB9 /* UIKit.framework */; };
+		ECFB82A9217E6D9E005F1DB9 /* CarteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB82A8217E6D9D005F1DB9 /* CarteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC69D9FE21820BCA00B1E3ED /* FavorisTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavorisTableViewController.swift; sourceTree = "<group>"; };
+		EC69DA0021820EC000B1E3ED /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		EC69DA02218261F800B1E3ED /* stationnement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stationnement.swift; sourceTree = "<group>"; };
 		EC8A223F217E06FD00EFA3AE /* ZenCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8A2242217E06FD00EFA3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC8A2244217E06FD00EFA3AE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EC8A2246217E06FD00EFA3AE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		EC8A2249217E06FD00EFA3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC8A224B217E06FD00EFA3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8A224E217E06FD00EFA3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +61,27 @@
 		EC8A2255217E06FD00EFA3AE /* ZenCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8A2259217E06FD00EFA3AE /* ZenCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenCarUITests.swift; sourceTree = "<group>"; };
 		EC8A225B217E06FD00EFA3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8A2264217E116300EFA3AE /* NouveauViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NouveauViewController.swift; sourceTree = "<group>"; };
+		EC8A2266217E119C00EFA3AE /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		ECFB8283217E67AB005F1DB9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		ECFB8286217E686B005F1DB9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		ECFB8288217E6877005F1DB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECFB828A217E6880005F1DB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECFB828C217E688A005F1DB9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		ECFB828E217E6897005F1DB9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ECFB8290217E68A4005F1DB9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ECFB8292217E68AE005F1DB9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ECFB8294217E68BB005F1DB9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		ECFB8296217E6917005F1DB9 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		ECFB8297217E6918005F1DB9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		ECFB8298217E6918005F1DB9 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		ECFB829C217E6948005F1DB9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		ECFB829E217E6959005F1DB9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		ECFB82A0217E6962005F1DB9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ECFB82A2217E696C005F1DB9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ECFB82A4217E6974005F1DB9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ECFB82A6217E697B005F1DB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECFB82A8217E6D9D005F1DB9 /* CarteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFB82A7217E697B005F1DB9 /* UIKit.framework in Frameworks */,
+				ECFB82A5217E6974005F1DB9 /* SystemConfiguration.framework in Frameworks */,
+				ECFB82A3217E696C005F1DB9 /* QuartzCore.framework in Frameworks */,
+				ECFB82A1217E6963005F1DB9 /* OpenGLES.framework in Frameworks */,
+				ECFB829F217E6959005F1DB9 /* libc++.tbd in Frameworks */,
+				ECFB829D217E6948005F1DB9 /* ImageIO.framework in Frameworks */,
+				ECFB8295217E68BB005F1DB9 /* GLKit.framework in Frameworks */,
+				ECFB8293217E68AE005F1DB9 /* CoreText.framework in Frameworks */,
+				ECFB8291217E68A4005F1DB9 /* CoreTelephony.framework in Frameworks */,
+				ECFB829B217E6918005F1DB9 /* GoogleMapsCore.framework in Frameworks */,
+				ECFB8299217E6918005F1DB9 /* GoogleMapsBase.framework in Frameworks */,
+				ECFB828F217E6897005F1DB9 /* CoreLocation.framework in Frameworks */,
+				ECFB828D217E688A005F1DB9 /* CoreImage.framework in Frameworks */,
+				ECFB828B217E6880005F1DB9 /* CoreGraphics.framework in Frameworks */,
+				ECFB8289217E6877005F1DB9 /* CoreData.framework in Frameworks */,
+				ECFB829A217E6918005F1DB9 /* GoogleMaps.framework in Frameworks */,
+				ECFB8287217E686B005F1DB9 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +125,7 @@
 				EC8A2241217E06FD00EFA3AE /* ZenCar */,
 				EC8A2258217E06FD00EFA3AE /* ZenCarUITests */,
 				EC8A2240217E06FD00EFA3AE /* Products */,
+				ECFB8285217E686A005F1DB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +141,18 @@
 		EC8A2241217E06FD00EFA3AE /* ZenCar */ = {
 			isa = PBXGroup;
 			children = (
+				ECFB8297217E6918005F1DB9 /* GoogleMaps.framework */,
+				ECFB8296217E6917005F1DB9 /* GoogleMapsBase.framework */,
+				ECFB8298217E6918005F1DB9 /* GoogleMapsCore.framework */,
+				ECFB8283217E67AB005F1DB9 /* GoogleMaps.bundle */,
 				EC8A2242217E06FD00EFA3AE /* AppDelegate.swift */,
-				EC8A2244217E06FD00EFA3AE /* FirstViewController.swift */,
-				EC8A2246217E06FD00EFA3AE /* SecondViewController.swift */,
+				ECFB82A8217E6D9D005F1DB9 /* CarteViewController.swift */,
 				EC8A2248217E06FD00EFA3AE /* Main.storyboard */,
+				EC69DA02218261F800B1E3ED /* stationnement.swift */,
+				EC69DA0021820EC000B1E3ED /* HistoryTableViewController.swift */,
+				EC69D9FE21820BCA00B1E3ED /* FavorisTableViewController.swift */,
+				EC8A2266217E119C00EFA3AE /* HistoryViewController.swift */,
+				EC8A2264217E116300EFA3AE /* NouveauViewController.swift */,
 				EC8A224B217E06FD00EFA3AE /* Assets.xcassets */,
 				EC8A224D217E06FD00EFA3AE /* LaunchScreen.storyboard */,
 				EC8A2250217E06FD00EFA3AE /* Info.plist */,
@@ -97,6 +167,27 @@
 				EC8A225B217E06FD00EFA3AE /* Info.plist */,
 			);
 			path = ZenCarUITests;
+			sourceTree = "<group>";
+		};
+		ECFB8285217E686A005F1DB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECFB82A6217E697B005F1DB9 /* UIKit.framework */,
+				ECFB82A4217E6974005F1DB9 /* SystemConfiguration.framework */,
+				ECFB82A2217E696C005F1DB9 /* QuartzCore.framework */,
+				ECFB82A0217E6962005F1DB9 /* OpenGLES.framework */,
+				ECFB829E217E6959005F1DB9 /* libc++.tbd */,
+				ECFB829C217E6948005F1DB9 /* ImageIO.framework */,
+				ECFB8294217E68BB005F1DB9 /* GLKit.framework */,
+				ECFB8292217E68AE005F1DB9 /* CoreText.framework */,
+				ECFB8290217E68A4005F1DB9 /* CoreTelephony.framework */,
+				ECFB828E217E6897005F1DB9 /* CoreLocation.framework */,
+				ECFB828C217E688A005F1DB9 /* CoreImage.framework */,
+				ECFB828A217E6880005F1DB9 /* CoreGraphics.framework */,
+				ECFB8288217E6877005F1DB9 /* CoreData.framework */,
+				ECFB8286217E686B005F1DB9 /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +235,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "L3P-IEM";
 				TargetAttributes = {
 					EC8A223E217E06FC00EFA3AE = {
@@ -185,6 +276,7 @@
 				EC8A224F217E06FD00EFA3AE /* LaunchScreen.storyboard in Resources */,
 				EC8A224C217E06FD00EFA3AE /* Assets.xcassets in Resources */,
 				EC8A224A217E06FD00EFA3AE /* Main.storyboard in Resources */,
+				ECFB8284217E67AB005F1DB9 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8A2247217E06FD00EFA3AE /* SecondViewController.swift in Sources */,
+				EC69D9FF21820BCA00B1E3ED /* FavorisTableViewController.swift in Sources */,
+				EC8A2268217E119D00EFA3AE /* HistoryViewController.swift in Sources */,
+				EC69DA0121820EC000B1E3ED /* HistoryTableViewController.swift in Sources */,
+				ECFB82A9217E6D9E005F1DB9 /* CarteViewController.swift in Sources */,
+				EC8A2265217E116300EFA3AE /* NouveauViewController.swift in Sources */,
 				EC8A2243217E06FD00EFA3AE /* AppDelegate.swift in Sources */,
-				EC8A2245217E06FD00EFA3AE /* FirstViewController.swift in Sources */,
+				EC69DA03218261F800B1E3ED /* stationnement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +356,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -267,6 +364,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -317,6 +415,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -324,6 +423,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -359,6 +459,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZenCar",
+				);
 				INFOPLIST_FILE = ZenCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.ZenCar";
@@ -374,6 +478,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZenCar",
+				);
 				INFOPLIST_FILE = ZenCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.ZenCar";
